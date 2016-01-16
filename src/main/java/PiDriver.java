@@ -19,7 +19,7 @@ public class PiDriver {
         String path = System.getProperty("user.dir") + "/target/scala-2.10/mesos-pi-assembly-1.0.jar";
 
         Protos.CommandInfo.URI uri = Protos.CommandInfo.URI.newBuilder().setValue(path).setExtract(false).build();
-        String commandPi = "java -cp target/scala-2.10/mesos-pi-assembly-1.0.jar PiExecutor";
+	String commandPi = "java -cp mesos-pi-assembly-1.0.jar PiExecutor";
         Protos.CommandInfo piCommandInfo = Protos.CommandInfo.newBuilder().setValue(commandPi).addUris(uri)
                 .build();
 
@@ -40,7 +40,7 @@ public class PiDriver {
             frameworkBuilder.setCheckpoint(true);
         }
 
-        Scheduler scheduler = new PiScheduler(piExecutorInfo, 4);
+        Scheduler scheduler = new PiScheduler(piExecutorInfo, 1);
 
         MesosSchedulerDriver schedulerDriver = new MesosSchedulerDriver(scheduler, frameworkBuilder.build(), args[0]);;
 
