@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="mesos-pi" external.linked.project.path="$USER_HOME$/mobi/localcluster/codes/private/mesos-pi" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/target/scala-2.10/classes" />
+    <output-test url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/target/scala-2.10/test-classes" />
+    <exclude-output />
+    <content url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi">
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/src/main/scala-2.10" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/target/scala-2.10/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/src/test/scala-2.10" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/target/scala-2.10/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/target/scala-2.10/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/target/scala-2.10/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/target/resolution-cache" />
+      <excludeFolder url="file://$USER_HOME$/mobi/localcluster/codes/private/mesos-pi/target/streams" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="SBT: com.google.protobuf:protobuf-java:2.5.0:jar">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.5.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: log4j:log4j:1.2.17:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/docs/log4j-1.2.17-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/log4j/log4j/srcs/log4j-1.2.17-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.apache.mesos:mesos:0.26.0:jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.mesos/mesos/jars/mesos-0.26.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.mesos/mesos/docs/mesos-0.26.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.mesos/mesos/srcs/mesos-0.26.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="SBT: org.scala-lang:scala-library:2.10.4:jar" type="Scala">
+        <properties>
+          <compiler-classpath>
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-compiler.jar" />
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-library.jar" />
+            <root url="file://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar" />
+          </compiler-classpath>
+        </properties>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.sbt/boot/scala-2.10.4/lib/scala-library.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.10.4-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.10.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
